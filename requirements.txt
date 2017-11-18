@@ -1,3 +1,4 @@
 nnmnkwii
 docopt
+tensorboard-logger
 tensorflow
