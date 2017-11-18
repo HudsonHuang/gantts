@@ -17,8 +17,8 @@ generated_audio_dir=./generated/${experiment_id}
 checkpoints_dir=./checkpoints/${experiment_id}
 
 # Feature extraction
-#python prepare_features_vc.py --max_files=500 ${cmu_arctic_dir} \
-#    clb slt --dst_dir=${data_dir}
+python prepare_features_vc.py --max_files=500 ${cmu_arctic_dir} \
+    clb awb --dst_dir=${data_dir}
 
 # train_gan.sh args:
 # 1. Hyper param name
