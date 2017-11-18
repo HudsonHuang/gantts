@@ -70,7 +70,7 @@ Feature extraction scripts are written for CMU ARCTIC dataset, but can be easily
 
 ### Voice conversion (en)
 
-`vc_demo.sh` is a `clb` to `clt` voice conversion demo script. Before running the script, please download wav files for `clb` and `slt` from [CMU ARCTIC](http://festvox.org/cmu_arctic/) and check that you have all data in a directory as follows:
+`vc_demo.sh` is a `clb` to `slt` voice conversion demo script. Before running the script, please download wav files for `clb` and `slt` from [CMU ARCTIC](http://festvox.org/cmu_arctic/) and check that you have all data in a directory as follows:
 
 ```
 > tree ~/data/cmu_arctic/ -d -L 1
