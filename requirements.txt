@@ -1,4 +1,3 @@
 nnmnkwii
-PyTorch
-Tensorflow
 docopt
+tensorflow
